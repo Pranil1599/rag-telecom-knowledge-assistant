@@ -1,0 +1,7 @@
+langchain>=0.3
+langchain-openai
+langchain-anthropic
+python-dotenv
+pypdf
+streamlit>=1.36
+pytest
