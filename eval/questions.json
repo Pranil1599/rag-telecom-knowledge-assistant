@@ -1,0 +1,18 @@
+[
+  {"question": "What does EMM cause 14 mean during LTE roaming?", "expected_docs": ["03-lte-emm-esm-reject-causes.md"], "keywords": ["EPS services not allowed in this PLMN"]},
+  {"question": "The ULA returned experimental result 5004, what does it mean?", "expected_docs": ["04-diameter-s6a-result-codes.md"], "keywords": ["ROAMING_NOT_ALLOWED"]},
+  {"question": "Diameter 3002 unable to deliver during IREG LTE test, where should I look?", "expected_docs": ["04-diameter-s6a-result-codes.md"], "keywords": ["routing"]},
+  {"question": "What information does an operator's IR.21 contain?", "expected_docs": ["02-gsma-roaming-documents.md"], "keywords": ["TADIG", "IMSI"]},
+  {"question": "Which GSMA document is the test specification for LTE roaming?", "expected_docs": ["01-ireg-testing-overview.md", "02-gsma-roaming-documents.md"], "keywords": ["IR.38"]},
+  {"question": "What is the difference between home routed and local breakout?", "expected_docs": ["06-roaming-architecture.md"], "keywords": ["PGW"]},
+  {"question": "Attach rejected with ESM cause 27 missing or unknown APN", "expected_docs": ["03-lte-emm-esm-reject-causes.md"], "keywords": ["APN"]},
+  {"question": "Both CS and PS attach fail on the same test SIM, what should I check first?", "expected_docs": ["07-attach-failure-troubleshooting.md", "05-2g3g-mm-gmm-map-errors.md"], "keywords": ["IMSI range"]},
+  {"question": "What is GMM cause 14 for GPRS?", "expected_docs": ["05-2g3g-mm-gmm-map-errors.md"], "keywords": ["GPRS services not allowed in this PLMN"]},
+  {"question": "MAP UpdateLocation gets no answer from the HLR", "expected_docs": ["05-2g3g-mm-gmm-map-errors.md", "07-attach-failure-troubleshooting.md"], "keywords": ["Global Title"]},
+  {"question": "What is S8HR for VoLTE roaming?", "expected_docs": ["06-roaming-architecture.md"], "keywords": ["S8 Home Routing"]},
+  {"question": "What is a TADIG code?", "expected_docs": ["08-roaming-glossary.md"], "keywords": ["5-character"]},
+  {"question": "Which document defines the TAP3 file format?", "expected_docs": ["02-gsma-roaming-documents.md"], "keywords": ["TD.57"]},
+  {"question": "What is the difference between inbound and outbound roaming tests?", "expected_docs": ["01-ireg-testing-overview.md"], "keywords": ["Outbound"]},
+  {"question": "What does the DEA do in LTE roaming?", "expected_docs": ["06-roaming-architecture.md", "04-diameter-s6a-result-codes.md"], "keywords": ["Diameter"]},
+  {"question": "Steps to troubleshoot a PS data failure where attach succeeds but there is no data", "expected_docs": ["07-attach-failure-troubleshooting.md"], "keywords": ["DNS"]}
+]
